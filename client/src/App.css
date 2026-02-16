@@ -1,0 +1,79 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* Responsive container padding for fixed navbar */
+/* Responsive container padding for fixed navbar */
+.main-content-container {
+  padding-top: 150px !important;
+}
+
+@media (max-width: 992px) {
+  .main-content-container {
+    padding-top: 80px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content-container {
+    padding-top: 60px !important;
+  }
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Row Highlighting Animation */
+@keyframes highlight-flash {
+  0% {
+    background-color: rgba(255, 215, 0, 0.6);
+    /* Stronger Gold/Yellow */
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+.highlight-row {
+  animation: highlight-flash 2s ease-in-out;
+}
