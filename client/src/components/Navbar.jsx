@@ -31,6 +31,7 @@ const Navbar = ({ onSync, syncing, workCount, isWsConnected, lastSyncTime, viewM
                  <Link to="/map" className="text-decoration-none text-secondary fw-medium hover-text-primary transition-all">
                     Harita
                  </Link>
+
             </div>
 
             {/* Actions Section (Right) */}

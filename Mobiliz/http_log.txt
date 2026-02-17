@@ -1,0 +1,96 @@
+URL: https://ng.mobiliz.com.tr/sm/config/ng.mobiliz.com.tr
+Type: application/json; charset=utf-8
+Data: {"result":{"environmentConstants":{"camURL":"https://cam.mobiliz.com.tr/","captcha":"force-enabled","extURL":"https://ext.mobiliz.com.tr/","googleMapsKey":"AIzaSyDiQkz6oE2dhgCegwuzHVrCY1fl9G4Ob5k","language":"tr_TR","socketURL":"https://ws.mobiliz.com.tr/","url":"https://ng.mobiliz.com.tr/","wld":false,"multiServer":true,"map":{"addressLayerURL":"https://{s}.mobiliz.com.tr/{serverName}/cv/company-vectors","addressLayerSubdomains":["cv1","cv2","cv3"],"mobilizV3":{"subDomains":["mm1","mm2","mm3","...
+
+URL: https://ng.mobiliz.com.tr/languages/tr_TR.json?v=4.52.0
+Type: application/json
+Data: {"ACCESSORIES":"Aksesuarlar","ACCESSORY":"Aksesuar","ACCESSORY_LIST":"Aksesuar Listesi","ACCEPT":"Onaylıyorum","ACCIDENT":"Kaza","ACTIONS":"İşlemler","ACTIVATE_AUTO_FW_UPDATE":"Otomatik FW Güncellemesini Aktifleştir","ACTIVATION_TIME":"Aktivasyon Zamanı","ACTIVE":"Aktif","ACTIVE_MAP_LAYERS":"Etkin Harita Katmanları","ACTIVE_STATE":"Açık Konum","ACTIVITY_DETAIL":"Aktivite Detay","ACTIVITY_DETAIL_REPORT":"Aktivite Detay Raporu","ACTIVITY_SUMMARY":"Aktivite Özet","ACTIVITY_SUMMARY_INFO":"Bu alandak...
+
+URL: https://ng.mobiliz.com.tr/sso/login/userLogin
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":{"token":"ab1881ed999e015668604d33864c28c0cfdb834ec9552f2f183e01dd30dc901a","userName":"AKSA Ç.","email":"RIFATTOLGA.KIRAN@canakkalegaz.com.tr","roleId":2,"roleDesc":"Üst Düzey Kullanıcı","roleKey":"POWER_USER","companyId":2052883,"companyName":"MAKİ TAŞIMACILIK TURİZM SAN.TİC.AŞ","language":"tr_TR","userId":5015456,"home":"menu-dashboard","systemName":"SU5","serverName":"SU5","balance":0,"expiredBalance":1987491.1,"systemCloseTime":null,"...
+
+URL: https://ng.mobiliz.com.tr/su5/api/ui-preferences/general
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":{"animationPointThreshold":1000,"bookmarks":[],"notificationSoundEnabled":true,"notificationMessagesEnabled":true,"deviceTreeClassification":"","deviceTreeRepresentation":"plate","mainPage":"tracking.map"},"errors":null}...
+
+URL: https://ng.mobiliz.com.tr/su5/sso/companies
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":2052883,"companyName":"MAKİ TAŞIMACILIK TURİZM SAN.TİC.AŞ","customerCode":"MBZ-027891","userLimit":10000,"mobileLimit":13113333,"paymentLoginAllowed":true,"sellerId":1,"industryId":86,"twoFactorAuthType":"NO_VERIFICATION","forgotPasswordNotificationType":"MAIL","serverName":"SU5","baseUrl":"https://ng.mobiliz.com.tr/su5","name":"MAKİ TAŞIMACILIK TURİZM SAN.TİC.AŞ","companyId":2052883}]}...
+
+URL: https://ng.mobiliz.com.tr/su5/sm/themes/mobiliz/system
+Type: application/json; charset=utf-8
+Data: {"result":{"generateEmail":false},"success":true,"type":"SUCCESS"}...
+
+URL: https://ng.mobiliz.com.tr/su5/sm/themes/mobiliz/map
+Type: application/json; charset=utf-8
+Data: {"result":{"layers":["mobilizV3Layer","osmLayer","googleRoadLayer","googleHybridLayer","googleRoadTrafficLayer","googleHybridTrafficLayer"],"defaultLayer":"googleHybridLayer"},"success":true,"type":"SUCCESS"}...
+
+URL: https://ng.mobiliz.com.tr/su5/api/map/getusersettings
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"settingName":"PADDRESS","settingValue":true,"settingDisplayName":"PADDRESS","uiFunctionSettingId":1,"uiFunctionSettingParentId":16},{"settingName":"BASELAYER","settingValue":"googleHybridLayer","settingDisplayName":"BASELAYER","uiFunctionSettingId":3,"uiFunctionSettingParentId":200},{"settingName":"PBATTERYCARD","settingValue":true,"settingDisplayName":"PBATTERYCARD","uiFunctionSettingId":4,"uiFunctionSettingParentId":16},{"settingName"...
+
+URL: https://ng.mobiliz.com.tr/su5/api/common/vehicletree
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":4017570,"name":"AKSA ÇANAKKALE DOĞALGAZ","type":"f","children":[{"id":4030680,"name":"ÇANAKKALE","type":"g","children":[{"id":4174845,"name":"17AEY931","type":"m","plate":"17AEY931","vendorCode":"DT402","networkId":"2145331","gsmNo":"+905309903567","vehicleLabel":"Çanakkale Ölçüm Tahakkuk","timezone":"Europe/Istanbul","softwareVersion":32790},{"id":4174875,"name":"17GJ238","type":"m","plate":"17GJ238","vendorCode":"DT402","networkId...
+
+URL: https://ng.mobiliz.com.tr/su5/api/vehicle-tags?owned=false&parents=true&structure=list&vehicles=false
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":1270,"name":"Şube Bazlı"}],"errors":null}...
+
+URL: https://ng.mobiliz.com.tr/su5/api/vehicle-properties/brands
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":120,"name":"ABARTH"},{"id":64,"name":"AKS"},{"id":121,"name":"ALFA"},{"id":3,"name":"ALFA ROMEO"},{"id":204,"name":"ALİM"},{"id":65,"name":"ALTINORDU"},{"id":149,"name":"AMMAN"},{"id":85,"name":"ANADOL"},{"id":156,"name":"ARORA"},{"id":4,"name":"ASTON MARTIN"},{"id":205,"name":"ATLAS COPCO"},{"id":119,"name":"ATLASCOPCO"},{"id":5,"name":"AUDI"},{"id":122,"name":"AUTOSAN"},{"id":185,"name":"BAJAJ"},{"id":206,"name":"BARANLAR"},{"id":...
+
+URL: https://ng.mobiliz.com.tr/su5/api/vehicle-properties/types
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":1,"name":"Otomobil (M1), (M1G)","key":"AUTOMOBILE"},{"id":2,"name":"İş Makineleri","key":"WORK_MACHINES"},{"id":3,"name":"Kamyon (N2-N3)","key":"TRUCK"},{"id":4,"name":"Kamyonet (N1), N1G)","key":"TRUCKS"},{"id":5,"name":"Çekici (N2-N3)","key":"BREAKDOWN"},{"id":6,"name":"Otobüs (M2-M3)","key":"BUS"},{"id":7,"name":"Minibüs (M2)","key":"MINIBUS"},{"id":8,"name":"Panelvan (N1)","key":"VAN"},{"id":9,"name":"Motorlu bisiklet (L1, L2, L...
+
+URL: https://ws.mobiliz.com.tr/address/SU5/2052883
+Type: application/json; charset=utf-8
+Data: {"host":"https://ws.mobiliz.com.tr","path":"/socket/3","url":"/socket/3"}...
+
+URL: https://ng.mobiliz.com.tr/su5/api/map/options
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":{"serverName":"SU5","countryBbox":"[[26.06005859375,35.85343961959182],[47.075390625,41.75492216766298]]","mobilizMapsBaseUrl":"http://su5.filoturk.com/map","trafficLayerUrl":"http://map.be-mobile.be/customer/mobiliz/tr/los/","mapLayersList":[{"layerUrl":"http://su5.filoturk.com/map/cgi-bin/tilecache.cgi","layerDescriber":"mobilizBaseLayer","layerName":"Mobiliz_Map","layerDisplayName":"Mobiliz","isBaseLayer":null},{"layerUrl":"http://{s}.t...
+
+URL: https://ng.mobiliz.com.tr/su5/api/bluetooth-sensor/devices/?sensorValues=true
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"muId":4492185,"identifier":"C5273DEC84FA","sensorDeviceId":51433,"sensorDeviceName":"Beaconfig-51433","deviceType":"B","sensorValues":[{"lastEventLogId":63484429873,"lastEventLogTime":"2024-09-25T07:57:00.000+00:00","driverId":null,"distance":null,"speed":null,"direction":null,"longitude":null,"latitude":null,"address":null,"sensorCode":"battery","sensorValue":"58"},{"lastEventLogId":63484429873,"lastEventLogTime":"2024-09-25T07:57:00.0...
+
+URL: https://ng.mobiliz.com.tr/su5/api/ui-preferences/tracking
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":{"classification":"","hiddenColumns":[],"view":"map","numberOfMaps":1,"columnWidthsById":{"vehicleLabel":269},"initialMapView":{"center":[40.12520966610826,26.404094696044925],"zoom":13}},"errors":null}...
+
+URL: https://ng.mobiliz.com.tr/su5/api/company-preferences/general
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":{"deviceTreeClassification":"","deviceTreeRepresentation":"","orderOfDashboardItems":["balanceInformation","suggestedReports","dashboardNotifications","map","activitySummary","dailyWorkingTime","vehicleStates","canbusFuelInfo","fleetManagementFuelSummary","violations","idleDrivers","idleVehicles","violatedDrivers","violatedVehicles","recentReports","dailyMaxRunTime","movementWithoutDriver","undefinedStateVehicles","maxTotalKmVehicles","max...
+
+URL: https://ng.mobiliz.com.tr/su5/api/vehicle-properties/models
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":2781,"name":"-","brandId":3,"typeId":1},{"id":2972,"name":".","brandId":194,"typeId":4},{"id":58,"name":"09.Mar","brandId":7,"typeId":1},{"id":55,"name":"09.May","brandId":7,"typeId":1},{"id":2578,"name":"1 E8x","brandId":9,"typeId":1},{"id":2605,"name":"1 F20/21","brandId":9,"typeId":1},{"id":2119,"name":"1 SERİSİ","brandId":9,"typeId":1},{"id":1338,"name":"1.9 D CIFT KABIN KAMYONET","brandId":54,"typeId":4},{"id":3055,"name":"100E...
+
+URL: https://ng.mobiliz.com.tr/su5/api/common/vehicletree?details=false&driver=true&properties=true
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":4017570,"name":"AKSA ÇANAKKALE DOĞALGAZ","type":"f","children":[{"id":4030680,"name":"ÇANAKKALE","type":"g","children":[{"id":4174845,"name":"17AEY931","type":"m","plate":"17AEY931","vendorCode":"DT402","networkId":"2145331","gsmNo":"+905309903567","vehicleLabel":"Çanakkale Ölçüm Tahakkuk","timezone":"Europe/Istanbul","softwareVersion":32790,"typeId":12,"modelId":1921,"brandId":22,"year":2016},{"id":4174875,"name":"17GJ238","type":"...
+
+URL: https://ng.mobiliz.com.tr/su5/sso/users/current
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":{"name":"AKSA ÇANAKKALE DOĞALGAZ","lastName":"DAĞITIM A.Ş.","email":"RIFATTOLGA.KIRAN@canakkalegaz.com.tr","gsmNumber":"5448116644","roleId":2}}...
+
+URL: https://ng.mobiliz.com.tr/su5/sso/users/current/permissions
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":["output-control","ndc-management","vehicle_handling_between_organizations","map-area-modify","device-command-sender"]}...
+
+URL: https://ng.mobiliz.com.tr/su5/api/map/locations?id=2052883&type=O
+Type: application/json
+Data: {"success":true,"type":"SUCCESS","message":null,"result":[{"id":1,"muId":4173375,"plate":"34NYC897","vehicleLabel":"Gönen Ölçüm Tahakkuk","state":0,"direction":6.1087,"latitude":40.113735,"longitude":27.65818,"groupName":"ÇANAKKALE","speed":0,"canbus":0,"cache":false,"stopDuration":1771339416000,"lastEventTime":"2026-02-17T20:43:38+0300","lastEventUtcDateTime":"2026-02-17T17:43:38","regionStatus":false},{"id":2,"muId":4174410,"plate":"17GP933","vehicleLabel":"Çan Ölçüm Tahakkuk","state":0,"direc...
+
+URL: https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true
+Type: application/json; charset=UTF-8
+Data: {}...
+
+URL: https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo
+Type: application/json+protobuf; charset=UTF-8
+Data: ["Harita verileri ©2026 Görüntü ©2026 Airbus, CNES / Airbus, Landsat / Copernicus, Maxar Technologies",[["report_map_issue",[[40.24599150419902,25.83984375],[40.3130432088809,26.982421875]]],["report_map_issue",[[40.17887331434696,25.83984375],[40.24599150419902,26.982421875]]],["report_map_issue",[[40.111688665595956,25.83984375],[40.17887331434696,26.982421875]]],["report_map_issue",[[40.044437584608566,25.83984375],[40.111688665595956,26.982421875]]],["report_map_issue",[[39.97712009843963,25...
+

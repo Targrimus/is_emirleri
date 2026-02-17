@@ -75,7 +75,7 @@ const fetchSapData = async (username = null, password = null) => {
       const results = response.data.d.results;
       console.log(`Fetched ${results.length} keys from SAP.`);
 
-      const listKeys = ['LIST_ATANACAK', 'LIST_ATANACAK_A', 'LIST_ATANACAK_S', 'LIST_ATANACAK_D', 'LIST_ILTLM', 'LIST_CALS', 'LIST_ENRJ', 'LIST_IPTL', 'LIST_TAML', 'LIST_KBLBEK', 'LIST_ATANACAK_OMS', 'LIST_YOL', 'LIST_ADRS', 'LIST_KBL', 'LIST_RED', 'LIST_TDOB', 'LIST_ADRBUK', 'LIST_BEKL'];
+      const listKeys = ['LIST_ATANACAK', 'LIST_ATANACAK_A', 'LIST_ATANACAK_S', 'LIST_ATANACAK_D', 'LIST_ILTLM', 'LIST_CALS', 'LIST_ENRJ', 'LIST_IPTL', 'LIST_TAML', 'LIST_KBLBEK', 'LIST_ATANACAK_OMS', 'LIST_YOL', 'LIST_ADRS', 'LIST_KBL', 'LIST_RED', 'LIST_TDOB', 'LIST_ADRBUK', 'LIST_BEKL', 'LIST_ONKB'];
       const worksMap = new Map();
 
       for (const item of results) {
